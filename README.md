@@ -37,7 +37,7 @@
 
    **Required:**
 
-    None
+    Отсутствуют
 
    **Optional:**
 
@@ -57,7 +57,7 @@
 
 * **Data Params**
 
-  None
+  Отсутствуют
 
 * **Success Response:**
   * **Condition** : Все объявления отображаются<br />
@@ -87,7 +87,7 @@
     **Code:** 422 Unprocessable Entity <br />
     **Content:** `{"error": "order_by is incorrect"}`
 
-  OR
+  ИЛИ
   * **Condition** : Страница задана некорректно<br />
     **Code:** 422 Unprocessable Entity <br />
     **Content:** `{"error": "page is incorrect"}`
@@ -129,7 +129,7 @@
 
 * **Data Params**
 
-  None
+  Отсутствуют
 
 * **Success Response:**
   * **Condition** : Объявление с данным ID существует, дополнительные поля(при их использовании) заданы корректно<br />
@@ -151,7 +151,7 @@
     **Code:** 404 Not found <br />
     **Content:** `{"error": "ad not found"}`
 
-  OR
+  ИЛИ
 
   * **Condition** : Неверно заданы дополнительные поля fields <br />
     **Code:** 422 Unprocessable Entity <br />
@@ -175,7 +175,7 @@
   
 *  **URL Params**
 
-    None
+    Отсутствуют
     
 
 * **Data Params**
@@ -213,7 +213,7 @@
  
 * **Error Response:**
 
-    **Condition** : Одно из полей не заполнено или не прошло валидцию</br>
+    **Condition** : Одно из полей не заполнено или не прошло валидацию</br>
     **Code:** 400 Bad request <br />
     **Content:** `{"error": "fields are incorrect"}`
 
